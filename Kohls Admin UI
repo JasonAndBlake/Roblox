@@ -1394,10 +1394,10 @@ local function LRPJWCJ_fake_script() -- lagButton.Script
 	
 	if BoolValue == false then
 	    BoolValue = true
-	    script.Parent.looped.Text = "Looped : True"
+	    script.Parent.looped.Text = "Active : True"
 	else
 	    BoolValue = false
-	    script.Parent.looped.Text = "Looped : False"
+	    script.Parent.looped.Text = "Active : False"
 	end
 	end
 	
@@ -1408,10 +1408,12 @@ local function LRPJWCJ_fake_script() -- lagButton.Script
 	    wait ()
 		    if BoolValue == true then
 			wait()
-	        game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
-	        game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+	                game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+	                game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+			wait()
 			game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
 			game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+			wait()
 	    end
 	end
 end
