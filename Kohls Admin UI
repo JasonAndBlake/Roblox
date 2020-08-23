@@ -1,0 +1,1677 @@
+-- Instances:
+
+local Interface = Instance.new("ScreenGui")
+local SideButtons = Instance.new("Frame")
+local Game = Instance.new("ImageButton")
+local TextLabel = Instance.new("TextLabel")
+local desktop_windows = Instance.new("ImageLabel")
+local Player = Instance.new("ImageButton")
+local TextLabel_2 = Instance.new("TextLabel")
+local person = Instance.new("ImageLabel")
+local Protections = Instance.new("ImageButton")
+local TextLabel_3 = Instance.new("TextLabel")
+local security = Instance.new("ImageLabel")
+local OpenClose = Instance.new("ImageButton")
+local TextLabel_4 = Instance.new("TextLabel")
+local Main = Instance.new("Frame")
+local Game_2 = Instance.new("Frame")
+local crashButton = Instance.new("ImageButton")
+local TextLabel_5 = Instance.new("TextLabel")
+local pmoveButton = Instance.new("ImageButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local ewButton = Instance.new("ImageButton")
+local TextLabel_7 = Instance.new("TextLabel")
+local hellButton = Instance.new("ImageButton")
+local TextLabel_8 = Instance.new("TextLabel")
+local rejoinButton = Instance.new("ImageButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local preset = Instance.new("ImageButton")
+local epilepsyButton = Instance.new("ImageButton")
+local TextLabel_10 = Instance.new("TextLabel")
+local looped = Instance.new("TextLabel")
+local regenButton = Instance.new("ImageButton")
+local TextLabel_11 = Instance.new("TextLabel")
+local Players = Instance.new("Frame")
+local userName = Instance.new("ImageButton")
+local usrName = Instance.new("TextBox")
+local trashButton = Instance.new("ImageButton")
+local TextLabel_12 = Instance.new("TextLabel")
+local boomerButton = Instance.new("ImageButton")
+local TextLabel_13 = Instance.new("TextLabel")
+local gayButton = Instance.new("ImageButton")
+local TextLabel_14 = Instance.new("TextLabel")
+local preset_2 = Instance.new("ImageButton")
+local resetButton = Instance.new("ImageButton")
+local TextLabel_15 = Instance.new("TextLabel")
+local looped_2 = Instance.new("TextLabel")
+local respawnButton = Instance.new("ImageButton")
+local looped_3 = Instance.new("TextLabel")
+local TextLabel_16 = Instance.new("TextLabel")
+local lagButton = Instance.new("ImageButton")
+local looped_4 = Instance.new("TextLabel")
+local TextLabel_17 = Instance.new("TextLabel")
+local commandName = Instance.new("ImageButton")
+local cmdName = Instance.new("TextBox")
+local spamButton = Instance.new("ImageButton")
+local looped_5 = Instance.new("TextLabel")
+local TextLabel_18 = Instance.new("TextLabel")
+local Protections_2 = Instance.new("Frame")
+local antiPunish = Instance.new("ImageButton")
+local enb = Instance.new("TextLabel")
+local TextLabel_19 = Instance.new("TextLabel")
+local antiKill = Instance.new("ImageButton")
+local TextLabel_20 = Instance.new("TextLabel")
+local enb_2 = Instance.new("TextLabel")
+local antiBlind = Instance.new("ImageButton")
+local enb_3 = Instance.new("TextLabel")
+local TextLabel_21 = Instance.new("TextLabel")
+local antiSound = Instance.new("ImageButton")
+local enb_4 = Instance.new("TextLabel")
+local TextLabel_22 = Instance.new("TextLabel")
+local antiGear = Instance.new("ImageButton")
+local enb_5 = Instance.new("TextLabel")
+local TextLabel_23 = Instance.new("TextLabel")
+local whitlist = Instance.new("ImageButton")
+local TextLabel_24 = Instance.new("TextLabel")
+local wbList = Instance.new("Frame")
+local userName_2 = Instance.new("ImageButton")
+local usrName_2 = Instance.new("TextBox")
+local addWl = Instance.new("ImageButton")
+local TextLabel_25 = Instance.new("TextLabel")
+local removeWl = Instance.new("ImageButton")
+local TextLabel_26 = Instance.new("TextLabel")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+
+--Properties:
+
+Interface.Name = "Interface"
+Interface.Parent = game.CoreGui
+
+SideButtons.Name = "SideButtons"
+SideButtons.Parent = Interface
+SideButtons.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SideButtons.BackgroundTransparency = 1.000
+SideButtons.BorderSizePixel = 0
+SideButtons.Position = UDim2.new(0, -110, 0.5, -157)
+SideButtons.Size = UDim2.new(0, 100, 0, 314)
+
+Game.Name = "Game"
+Game.Parent = SideButtons
+Game.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Game.BackgroundTransparency = 1.000
+Game.Position = UDim2.new(0, 0, 0.159235656, -50)
+Game.Size = UDim2.new(0, 100, 0, 100)
+Game.Image = "rbxassetid://2790382281"
+Game.ImageColor3 = Color3.fromRGB(35, 35, 35)
+Game.ScaleType = Enum.ScaleType.Slice
+Game.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel.Parent = Game
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0, 0, 0.5, 0)
+TextLabel.Size = UDim2.new(0, 97, 0, 50)
+TextLabel.Font = Enum.Font.SourceSans
+TextLabel.Text = "Game"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextSize = 22.000
+TextLabel.TextWrapped = true
+
+desktop_windows.Name = "desktop_windows"
+desktop_windows.Parent = Game
+desktop_windows.BackgroundTransparency = 1.000
+desktop_windows.LayoutOrder = 13
+desktop_windows.Position = UDim2.new(0.300000012, 0, 0.140000001, 0)
+desktop_windows.Size = UDim2.new(0, 38, 0, 38)
+desktop_windows.ZIndex = 2
+desktop_windows.Image = "rbxassetid://3926305904"
+desktop_windows.ImageRectOffset = Vector2.new(164, 524)
+desktop_windows.ImageRectSize = Vector2.new(36, 36)
+
+Player.Name = "Player"
+Player.Parent = SideButtons
+Player.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Player.BackgroundTransparency = 1.000
+Player.Position = UDim2.new(0, 0, 0.5, -50)
+Player.Size = UDim2.new(0, 100, 0, 100)
+Player.Image = "rbxassetid://2790382281"
+Player.ImageColor3 = Color3.fromRGB(35, 35, 35)
+Player.ScaleType = Enum.ScaleType.Slice
+Player.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_2.Parent = Player
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0, 0, 0.5, 0)
+TextLabel_2.Size = UDim2.new(0, 97, 0, 50)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "Players"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextSize = 22.000
+TextLabel_2.TextWrapped = true
+
+person.Name = "person"
+person.Parent = Player
+person.BackgroundTransparency = 1.000
+person.LayoutOrder = 6
+person.Position = UDim2.new(0.300000012, 0, 0.119999997, 0)
+person.Size = UDim2.new(0, 38, 0, 38)
+person.ZIndex = 2
+person.Image = "rbxassetid://3926307971"
+person.ImageRectOffset = Vector2.new(884, 4)
+person.ImageRectSize = Vector2.new(36, 36)
+
+Protections.Name = "Protections"
+Protections.Parent = SideButtons
+Protections.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Protections.BackgroundTransparency = 1.000
+Protections.Position = UDim2.new(0, 0, 0.840764344, -50)
+Protections.Size = UDim2.new(0, 100, 0, 100)
+Protections.Image = "rbxassetid://2790382281"
+Protections.ImageColor3 = Color3.fromRGB(35, 35, 35)
+Protections.ScaleType = Enum.ScaleType.Slice
+Protections.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_3.Parent = Protections
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, 0.5, 0)
+TextLabel_3.Size = UDim2.new(0, 97, 0, 50)
+TextLabel_3.Font = Enum.Font.SourceSans
+TextLabel_3.Text = "Protections"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextSize = 22.000
+TextLabel_3.TextWrapped = true
+
+security.Name = "security"
+security.Parent = Protections
+security.BackgroundTransparency = 1.000
+security.LayoutOrder = 6
+security.Position = UDim2.new(0.300000012, 0, 0.180000007, 0)
+security.Size = UDim2.new(0, 38, 0, 38)
+security.Image = "rbxassetid://3926307971"
+security.ImageRectOffset = Vector2.new(164, 284)
+security.ImageRectSize = Vector2.new(36, 36)
+
+OpenClose.Name = "OpenClose"
+OpenClose.Parent = Interface
+OpenClose.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+OpenClose.BackgroundTransparency = 1.000
+OpenClose.Position = UDim2.new(0, 0, 1, -40)
+OpenClose.Size = UDim2.new(0, 109, 0, 40)
+OpenClose.ZIndex = 0
+OpenClose.Image = "rbxassetid://2790382281"
+OpenClose.ImageColor3 = Color3.fromRGB(0, 170, 127)
+OpenClose.ScaleType = Enum.ScaleType.Slice
+OpenClose.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_4.Parent = OpenClose
+TextLabel_4.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.454954118, 0, 0.499999762, 0)
+TextLabel_4.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_4.Font = Enum.Font.GothamSemibold
+TextLabel_4.Text = "Open"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextSize = 14.000
+
+Main.Name = "Main"
+Main.Parent = Interface
+Main.Active = true
+Main.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(-0.00181818008, 100, 0.5, -157)
+Main.Selectable = true
+Main.Size = UDim2.new(0, 333, 0, 314)
+Main.Visible = false
+
+Game_2.Name = "Game"
+Game_2.Parent = Main
+Game_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Game_2.BackgroundTransparency = 1.000
+Game_2.Size = UDim2.new(0, 333, 0, 314)
+Game_2.Visible = false
+
+crashButton.Name = "crashButton"
+crashButton.Parent = Game_2
+crashButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+crashButton.BackgroundTransparency = 1.000
+crashButton.Position = UDim2.new(0.0347638279, 0, 0.0745908916, 0)
+crashButton.Size = UDim2.new(0, 86, 0, 30)
+crashButton.Image = "rbxassetid://2790382281"
+crashButton.ScaleType = Enum.ScaleType.Slice
+crashButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_5.Parent = crashButton
+TextLabel_5.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_5.BackgroundTransparency = 1.000
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_5.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_5.Font = Enum.Font.GothamSemibold
+TextLabel_5.Text = "Crash"
+TextLabel_5.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_5.TextSize = 14.000
+
+pmoveButton.Name = "pmoveButton"
+pmoveButton.Parent = Game_2
+pmoveButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+pmoveButton.BackgroundTransparency = 1.000
+pmoveButton.Position = UDim2.new(0.0350000001, 0, 0.215000004, 0)
+pmoveButton.Size = UDim2.new(0, 86, 0, 30)
+pmoveButton.Image = "rbxassetid://2790382281"
+pmoveButton.ScaleType = Enum.ScaleType.Slice
+pmoveButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_6.Parent = pmoveButton
+TextLabel_6.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_6.BackgroundTransparency = 1.000
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_6.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_6.Font = Enum.Font.GothamSemibold
+TextLabel_6.Text = "Move Part"
+TextLabel_6.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_6.TextSize = 14.000
+
+ewButton.Name = "ewButton"
+ewButton.Parent = Game_2
+ewButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ewButton.BackgroundTransparency = 1.000
+ewButton.Position = UDim2.new(0.0410060063, 0, 0.354999989, 0)
+ewButton.Size = UDim2.new(0, 86, 0, 30)
+ewButton.Image = "rbxassetid://2790382281"
+ewButton.ScaleType = Enum.ScaleType.Slice
+ewButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_7.Parent = ewButton
+TextLabel_7.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_7.BackgroundTransparency = 1.000
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_7.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_7.Font = Enum.Font.GothamSemibold
+TextLabel_7.Text = "Ew"
+TextLabel_7.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_7.TextSize = 14.000
+
+hellButton.Name = "hellButton"
+hellButton.Parent = Game_2
+hellButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+hellButton.BackgroundTransparency = 1.000
+hellButton.Position = UDim2.new(0.0410060063, 0, 0.495000005, 0)
+hellButton.Size = UDim2.new(0, 86, 0, 30)
+hellButton.Image = "rbxassetid://2790382281"
+hellButton.ScaleType = Enum.ScaleType.Slice
+hellButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_8.Parent = hellButton
+TextLabel_8.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_8.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_8.Font = Enum.Font.GothamSemibold
+TextLabel_8.Text = "Hell"
+TextLabel_8.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.TextSize = 14.000
+
+rejoinButton.Name = "rejoinButton"
+rejoinButton.Parent = Game_2
+rejoinButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rejoinButton.BackgroundTransparency = 1.000
+rejoinButton.Position = UDim2.new(0.368333369, 0, 0.0744904131, 0)
+rejoinButton.Size = UDim2.new(0, 86, 0, 30)
+rejoinButton.Image = "rbxassetid://2790382281"
+rejoinButton.ScaleType = Enum.ScaleType.Slice
+rejoinButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_9.Parent = rejoinButton
+TextLabel_9.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_9.BackgroundTransparency = 1.000
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_9.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_9.Font = Enum.Font.GothamSemibold
+TextLabel_9.Text = "Rejoin"
+TextLabel_9.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_9.TextSize = 14.000
+
+preset.Name = "preset"
+preset.Parent = Game_2
+preset.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+preset.BackgroundTransparency = 1.000
+preset.Position = UDim2.new(0.740705729, 0, 0.902515888, 0)
+preset.Size = UDim2.new(0, 86, 0, 30)
+preset.Visible = false
+preset.Image = "rbxassetid://2790382281"
+preset.ScaleType = Enum.ScaleType.Slice
+preset.SliceCenter = Rect.new(4, 4, 252, 252)
+
+epilepsyButton.Name = "epilepsyButton"
+epilepsyButton.Parent = Game_2
+epilepsyButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+epilepsyButton.BackgroundTransparency = 1.000
+epilepsyButton.Position = UDim2.new(0.0410060063, 0, 0.630999982, 0)
+epilepsyButton.Size = UDim2.new(0, 86, 0, 30)
+epilepsyButton.Image = "rbxassetid://2790382281"
+epilepsyButton.ScaleType = Enum.ScaleType.Slice
+epilepsyButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_10.Parent = epilepsyButton
+TextLabel_10.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_10.BackgroundTransparency = 1.000
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_10.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_10.Font = Enum.Font.GothamSemibold
+TextLabel_10.Text = "Epilepsy"
+TextLabel_10.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_10.TextSize = 14.000
+
+looped.Name = "looped"
+looped.Parent = epilepsyButton
+looped.AnchorPoint = Vector2.new(0.5, 0.5)
+looped.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+looped.BackgroundTransparency = 1.000
+looped.BorderSizePixel = 0
+looped.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+looped.Size = UDim2.new(1, -5, 1, -5)
+looped.Font = Enum.Font.GothamSemibold
+looped.Text = "Active : False"
+looped.TextColor3 = Color3.fromRGB(255, 255, 255)
+looped.TextSize = 14.000
+
+regenButton.Name = "regenButton"
+regenButton.Parent = Game_2
+regenButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+regenButton.BackgroundTransparency = 1.000
+regenButton.Position = UDim2.new(0.368333429, 0, 0.213802561, 0)
+regenButton.Size = UDim2.new(0, 86, 0, 30)
+regenButton.Image = "rbxassetid://2790382281"
+regenButton.ScaleType = Enum.ScaleType.Slice
+regenButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_11.Parent = regenButton
+TextLabel_11.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_11.BackgroundTransparency = 1.000
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_11.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_11.Font = Enum.Font.GothamSemibold
+TextLabel_11.Text = "Regen"
+TextLabel_11.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_11.TextSize = 14.000
+
+Players.Name = "Players"
+Players.Parent = Main
+Players.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Players.BackgroundTransparency = 1.000
+Players.Size = UDim2.new(0, 333, 0, 314)
+Players.Visible = false
+
+userName.Name = "userName"
+userName.Parent = Players
+userName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+userName.BackgroundTransparency = 1.000
+userName.Position = UDim2.new(0.0347638279, 0, 0.0745908916, 0)
+userName.Size = UDim2.new(0, 86, 0, 30)
+userName.Image = "rbxassetid://2790382281"
+userName.ScaleType = Enum.ScaleType.Slice
+userName.SliceCenter = Rect.new(4, 4, 252, 252)
+
+usrName.Name = "usrName"
+usrName.Parent = userName
+usrName.Active = false
+usrName.AnchorPoint = Vector2.new(0.5, 0.5)
+usrName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+usrName.BackgroundTransparency = 1.000
+usrName.BorderSizePixel = 0
+usrName.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+usrName.Selectable = false
+usrName.Size = UDim2.new(1, -5, 1, -5)
+usrName.Font = Enum.Font.GothamSemibold
+usrName.PlaceholderColor3 = Color3.fromRGB(47, 47, 47)
+usrName.PlaceholderText = "Username"
+usrName.Text = ""
+usrName.TextColor3 = Color3.fromRGB(0, 0, 0)
+usrName.TextSize = 14.000
+
+trashButton.Name = "trashButton"
+trashButton.Parent = Players
+trashButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+trashButton.BackgroundTransparency = 1.000
+trashButton.Position = UDim2.new(0.0350000001, 0, 0.215000004, 0)
+trashButton.Size = UDim2.new(0, 86, 0, 30)
+trashButton.Image = "rbxassetid://2790382281"
+trashButton.ScaleType = Enum.ScaleType.Slice
+trashButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_12.Parent = trashButton
+TextLabel_12.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_12.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_12.BackgroundTransparency = 1.000
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_12.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_12.Font = Enum.Font.GothamSemibold
+TextLabel_12.Text = "Trash"
+TextLabel_12.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_12.TextSize = 14.000
+
+boomerButton.Name = "boomerButton"
+boomerButton.Parent = Players
+boomerButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+boomerButton.BackgroundTransparency = 1.000
+boomerButton.Position = UDim2.new(0.0410060063, 0, 0.354999989, 0)
+boomerButton.Size = UDim2.new(0, 86, 0, 30)
+boomerButton.Image = "rbxassetid://2790382281"
+boomerButton.ScaleType = Enum.ScaleType.Slice
+boomerButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_13.Parent = boomerButton
+TextLabel_13.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_13.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_13.BackgroundTransparency = 1.000
+TextLabel_13.BorderSizePixel = 0
+TextLabel_13.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_13.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_13.Font = Enum.Font.GothamSemibold
+TextLabel_13.Text = "Boomer"
+TextLabel_13.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_13.TextSize = 14.000
+
+gayButton.Name = "gayButton"
+gayButton.Parent = Players
+gayButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+gayButton.BackgroundTransparency = 1.000
+gayButton.Position = UDim2.new(0.0410060063, 0, 0.495000005, 0)
+gayButton.Size = UDim2.new(0, 86, 0, 30)
+gayButton.Image = "rbxassetid://2790382281"
+gayButton.ScaleType = Enum.ScaleType.Slice
+gayButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_14.Parent = gayButton
+TextLabel_14.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_14.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_14.BackgroundTransparency = 1.000
+TextLabel_14.BorderSizePixel = 0
+TextLabel_14.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_14.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_14.Font = Enum.Font.GothamSemibold
+TextLabel_14.Text = "Gay"
+TextLabel_14.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_14.TextSize = 14.000
+
+preset_2.Name = "preset"
+preset_2.Parent = Players
+preset_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+preset_2.BackgroundTransparency = 1.000
+preset_2.Position = UDim2.new(0.740705729, 0, 0.902515888, 0)
+preset_2.Size = UDim2.new(0, 86, 0, 30)
+preset_2.Visible = false
+preset_2.Image = "rbxassetid://2790382281"
+preset_2.ScaleType = Enum.ScaleType.Slice
+preset_2.SliceCenter = Rect.new(4, 4, 252, 252)
+
+resetButton.Name = "resetButton"
+resetButton.Parent = Players
+resetButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+resetButton.BackgroundTransparency = 1.000
+resetButton.Position = UDim2.new(0.0410060063, 0, 0.630999982, 0)
+resetButton.Size = UDim2.new(0, 86, 0, 30)
+resetButton.Image = "rbxassetid://2790382281"
+resetButton.ScaleType = Enum.ScaleType.Slice
+resetButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_15.Parent = resetButton
+TextLabel_15.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_15.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_15.BackgroundTransparency = 1.000
+TextLabel_15.BorderSizePixel = 0
+TextLabel_15.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_15.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_15.Font = Enum.Font.GothamSemibold
+TextLabel_15.Text = "Reset"
+TextLabel_15.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_15.TextSize = 14.000
+
+looped_2.Name = "looped"
+looped_2.Parent = resetButton
+looped_2.AnchorPoint = Vector2.new(0.5, 0.5)
+looped_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+looped_2.BackgroundTransparency = 1.000
+looped_2.BorderSizePixel = 0
+looped_2.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+looped_2.Size = UDim2.new(1, -5, 1, -5)
+looped_2.Font = Enum.Font.GothamSemibold
+looped_2.Text = "Active : False"
+looped_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+looped_2.TextSize = 14.000
+
+respawnButton.Name = "respawnButton"
+respawnButton.Parent = Players
+respawnButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+respawnButton.BackgroundTransparency = 1.000
+respawnButton.Position = UDim2.new(0.0410060063, 0, 0.79660511, 0)
+respawnButton.Size = UDim2.new(0, 86, 0, 30)
+respawnButton.Image = "rbxassetid://2790382281"
+respawnButton.ScaleType = Enum.ScaleType.Slice
+respawnButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+looped_3.Name = "looped"
+looped_3.Parent = respawnButton
+looped_3.AnchorPoint = Vector2.new(0.5, 0.5)
+looped_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+looped_3.BackgroundTransparency = 1.000
+looped_3.BorderSizePixel = 0
+looped_3.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+looped_3.Size = UDim2.new(1, -5, 1, -5)
+looped_3.Font = Enum.Font.GothamSemibold
+looped_3.Text = "Active : False"
+looped_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+looped_3.TextSize = 14.000
+
+TextLabel_16.Parent = respawnButton
+TextLabel_16.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_16.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_16.BackgroundTransparency = 1.000
+TextLabel_16.BorderSizePixel = 0
+TextLabel_16.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_16.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_16.Font = Enum.Font.GothamSemibold
+TextLabel_16.Text = "Respawn"
+TextLabel_16.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_16.TextSize = 14.000
+
+lagButton.Name = "lagButton"
+lagButton.Parent = Players
+lagButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+lagButton.BackgroundTransparency = 1.000
+lagButton.Position = UDim2.new(0.36500001, 0, 0.375999987, 0)
+lagButton.Size = UDim2.new(0, 86, 0, 30)
+lagButton.Image = "rbxassetid://2790382281"
+lagButton.ScaleType = Enum.ScaleType.Slice
+lagButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+looped_4.Name = "looped"
+looped_4.Parent = lagButton
+looped_4.AnchorPoint = Vector2.new(0.5, 0.5)
+looped_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+looped_4.BackgroundTransparency = 1.000
+looped_4.BorderSizePixel = 0
+looped_4.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+looped_4.Size = UDim2.new(1, -5, 1, -5)
+looped_4.Font = Enum.Font.GothamSemibold
+looped_4.Text = "Active : False"
+looped_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+looped_4.TextSize = 14.000
+
+TextLabel_17.Parent = lagButton
+TextLabel_17.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_17.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_17.BackgroundTransparency = 1.000
+TextLabel_17.BorderSizePixel = 0
+TextLabel_17.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_17.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_17.Font = Enum.Font.GothamSemibold
+TextLabel_17.Text = "Lag"
+TextLabel_17.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_17.TextSize = 14.000
+
+commandName.Name = "commandName"
+commandName.Parent = Players
+commandName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+commandName.BackgroundTransparency = 1.000
+commandName.Position = UDim2.new(0.368097186, 0, 0.0745908916, 0)
+commandName.Size = UDim2.new(0, 86, 0, 30)
+commandName.Image = "rbxassetid://2790382281"
+commandName.ScaleType = Enum.ScaleType.Slice
+commandName.SliceCenter = Rect.new(4, 4, 252, 252)
+
+cmdName.Name = "cmdName"
+cmdName.Parent = commandName
+cmdName.Active = false
+cmdName.AnchorPoint = Vector2.new(0.5, 0.5)
+cmdName.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cmdName.BackgroundTransparency = 1.000
+cmdName.BorderSizePixel = 0
+cmdName.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+cmdName.Selectable = false
+cmdName.Size = UDim2.new(1, -5, 1, -5)
+cmdName.Font = Enum.Font.GothamSemibold
+cmdName.PlaceholderColor3 = Color3.fromRGB(47, 47, 47)
+cmdName.PlaceholderText = "Command"
+cmdName.Text = ""
+cmdName.TextColor3 = Color3.fromRGB(0, 0, 0)
+cmdName.TextSize = 14.000
+
+spamButton.Name = "spamButton"
+spamButton.Parent = Players
+spamButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+spamButton.BackgroundTransparency = 1.000
+spamButton.Position = UDim2.new(0.368000001, 0, 0.214000002, 0)
+spamButton.Size = UDim2.new(0, 86, 0, 30)
+spamButton.Image = "rbxassetid://2790382281"
+spamButton.ScaleType = Enum.ScaleType.Slice
+spamButton.SliceCenter = Rect.new(4, 4, 252, 252)
+
+looped_5.Name = "looped"
+looped_5.Parent = spamButton
+looped_5.AnchorPoint = Vector2.new(0.5, 0.5)
+looped_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+looped_5.BackgroundTransparency = 1.000
+looped_5.BorderSizePixel = 0
+looped_5.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+looped_5.Size = UDim2.new(1, -5, 1, -5)
+looped_5.Font = Enum.Font.GothamSemibold
+looped_5.Text = "Active : False"
+looped_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+looped_5.TextSize = 14.000
+
+TextLabel_18.Parent = spamButton
+TextLabel_18.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_18.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_18.BackgroundTransparency = 1.000
+TextLabel_18.BorderSizePixel = 0
+TextLabel_18.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_18.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_18.Font = Enum.Font.GothamSemibold
+TextLabel_18.Text = "Spam Command"
+TextLabel_18.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_18.TextScaled = true
+TextLabel_18.TextSize = 14.000
+TextLabel_18.TextWrapped = true
+
+Protections_2.Name = "Protections"
+Protections_2.Parent = Main
+Protections_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Protections_2.BackgroundTransparency = 1.000
+Protections_2.Size = UDim2.new(0, 333, 0, 314)
+Protections_2.Visible = false
+
+antiPunish.Name = "antiPunish"
+antiPunish.Parent = Protections_2
+antiPunish.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+antiPunish.BackgroundTransparency = 1.000
+antiPunish.Position = UDim2.new(0.0319969952, 0, 0.240477711, 0)
+antiPunish.Size = UDim2.new(0, 86, 0, 30)
+antiPunish.Image = "rbxassetid://2790382281"
+antiPunish.ScaleType = Enum.ScaleType.Slice
+antiPunish.SliceCenter = Rect.new(4, 4, 252, 252)
+
+enb.Name = "enb"
+enb.Parent = antiPunish
+enb.AnchorPoint = Vector2.new(0.5, 0.5)
+enb.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+enb.BackgroundTransparency = 1.000
+enb.BorderSizePixel = 0
+enb.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+enb.Size = UDim2.new(1, -5, 1, -5)
+enb.Font = Enum.Font.GothamSemibold
+enb.Text = "Active : False"
+enb.TextColor3 = Color3.fromRGB(255, 255, 255)
+enb.TextSize = 14.000
+
+TextLabel_19.Parent = antiPunish
+TextLabel_19.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_19.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_19.BackgroundTransparency = 1.000
+TextLabel_19.BorderSizePixel = 0
+TextLabel_19.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_19.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_19.Font = Enum.Font.GothamSemibold
+TextLabel_19.Text = "Anti Punish"
+TextLabel_19.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_19.TextSize = 14.000
+
+antiKill.Name = "antiKill"
+antiKill.Parent = Protections_2
+antiKill.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+antiKill.BackgroundTransparency = 1.000
+antiKill.Position = UDim2.new(0.0350000001, 0, 0.075000003, 0)
+antiKill.Size = UDim2.new(0, 86, 0, 30)
+antiKill.Image = "rbxassetid://2790382281"
+antiKill.ScaleType = Enum.ScaleType.Slice
+antiKill.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_20.Parent = antiKill
+TextLabel_20.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_20.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_20.BackgroundTransparency = 1.000
+TextLabel_20.BorderSizePixel = 0
+TextLabel_20.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_20.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_20.Font = Enum.Font.GothamSemibold
+TextLabel_20.Text = "Anti Kill"
+TextLabel_20.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_20.TextSize = 14.000
+
+enb_2.Name = "enb"
+enb_2.Parent = antiKill
+enb_2.AnchorPoint = Vector2.new(0.5, 0.5)
+enb_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+enb_2.BackgroundTransparency = 1.000
+enb_2.BorderSizePixel = 0
+enb_2.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+enb_2.Size = UDim2.new(1, -5, 1, -5)
+enb_2.Font = Enum.Font.GothamSemibold
+enb_2.Text = "Active : False"
+enb_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+enb_2.TextSize = 14.000
+
+antiBlind.Name = "antiBlind"
+antiBlind.Parent = Protections_2
+antiBlind.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+antiBlind.BackgroundTransparency = 1.000
+antiBlind.Position = UDim2.new(0.0349999964, 0, 0.402898103, 0)
+antiBlind.Size = UDim2.new(0, 86, 0, 30)
+antiBlind.Image = "rbxassetid://2790382281"
+antiBlind.ScaleType = Enum.ScaleType.Slice
+antiBlind.SliceCenter = Rect.new(4, 4, 252, 252)
+
+enb_3.Name = "enb"
+enb_3.Parent = antiBlind
+enb_3.AnchorPoint = Vector2.new(0.5, 0.5)
+enb_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+enb_3.BackgroundTransparency = 1.000
+enb_3.BorderSizePixel = 0
+enb_3.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+enb_3.Size = UDim2.new(1, -5, 1, -5)
+enb_3.Font = Enum.Font.GothamSemibold
+enb_3.Text = "Active : False"
+enb_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+enb_3.TextSize = 14.000
+
+TextLabel_21.Parent = antiBlind
+TextLabel_21.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_21.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_21.BackgroundTransparency = 1.000
+TextLabel_21.BorderSizePixel = 0
+TextLabel_21.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_21.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_21.Font = Enum.Font.GothamSemibold
+TextLabel_21.Text = "Anti Blind"
+TextLabel_21.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_21.TextSize = 14.000
+
+antiSound.Name = "antiSound"
+antiSound.Parent = Protections_2
+antiSound.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+antiSound.BackgroundTransparency = 1.000
+antiSound.Position = UDim2.new(0.0319969952, 0, 0.562133789, 0)
+antiSound.Size = UDim2.new(0, 86, 0, 30)
+antiSound.Image = "rbxassetid://2790382281"
+antiSound.ScaleType = Enum.ScaleType.Slice
+antiSound.SliceCenter = Rect.new(4, 4, 252, 252)
+
+enb_4.Name = "enb"
+enb_4.Parent = antiSound
+enb_4.AnchorPoint = Vector2.new(0.5, 0.5)
+enb_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+enb_4.BackgroundTransparency = 1.000
+enb_4.BorderSizePixel = 0
+enb_4.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+enb_4.Size = UDim2.new(1, -5, 1, -5)
+enb_4.Font = Enum.Font.GothamSemibold
+enb_4.Text = "Active : False"
+enb_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+enb_4.TextSize = 14.000
+
+TextLabel_22.Parent = antiSound
+TextLabel_22.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_22.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_22.BackgroundTransparency = 1.000
+TextLabel_22.BorderSizePixel = 0
+TextLabel_22.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_22.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_22.Font = Enum.Font.GothamSemibold
+TextLabel_22.Text = "Anti Music"
+TextLabel_22.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_22.TextSize = 14.000
+
+antiGear.Name = "antiGear"
+antiGear.Parent = Protections_2
+antiGear.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+antiGear.BackgroundTransparency = 1.000
+antiGear.Position = UDim2.new(0.0319969952, 0, 0.727738857, 0)
+antiGear.Size = UDim2.new(0, 86, 0, 30)
+antiGear.Image = "rbxassetid://2790382281"
+antiGear.ScaleType = Enum.ScaleType.Slice
+antiGear.SliceCenter = Rect.new(4, 4, 252, 252)
+
+enb_5.Name = "enb"
+enb_5.Parent = antiGear
+enb_5.AnchorPoint = Vector2.new(0.5, 0.5)
+enb_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+enb_5.BackgroundTransparency = 1.000
+enb_5.BorderSizePixel = 0
+enb_5.Position = UDim2.new(0.519883633, 0, 1.3166666, 0)
+enb_5.Size = UDim2.new(1, -5, 1, -5)
+enb_5.Font = Enum.Font.GothamSemibold
+enb_5.Text = "Active : False"
+enb_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+enb_5.TextSize = 14.000
+
+TextLabel_23.Parent = antiGear
+TextLabel_23.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_23.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_23.BackgroundTransparency = 1.000
+TextLabel_23.BorderSizePixel = 0
+TextLabel_23.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_23.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_23.Font = Enum.Font.GothamSemibold
+TextLabel_23.Text = "Anti Gear"
+TextLabel_23.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_23.TextSize = 14.000
+
+whitlist.Name = "whitlist"
+whitlist.Parent = antiGear
+whitlist.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+whitlist.BackgroundTransparency = 1.000
+whitlist.Position = UDim2.new(0.967558026, 0, 0.116333008, 0)
+whitlist.Size = UDim2.new(0, 18, 0, 23)
+whitlist.Image = "rbxassetid://2790382281"
+whitlist.ScaleType = Enum.ScaleType.Slice
+whitlist.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_24.Parent = whitlist
+TextLabel_24.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_24.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_24.BackgroundTransparency = 1.000
+TextLabel_24.BorderSizePixel = 0
+TextLabel_24.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_24.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_24.Font = Enum.Font.GothamSemibold
+TextLabel_24.Text = ">"
+TextLabel_24.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_24.TextSize = 14.000
+
+wbList.Name = "wbList"
+wbList.Parent = antiGear
+wbList.BackgroundColor3 = Color3.fromRGB(35, 35, 35)
+wbList.BorderSizePixel = 0
+wbList.Position = UDim2.new(3.74418616, 0, -7.63333321, 0)
+wbList.Size = UDim2.new(0, 166, 0, 137)
+wbList.Visible = false
+
+userName_2.Name = "userName"
+userName_2.Parent = wbList
+userName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+userName_2.BackgroundTransparency = 1.000
+userName_2.Position = UDim2.new(0.239583105, 0, 0.147583589, 0)
+userName_2.Size = UDim2.new(0, 86, 0, 30)
+userName_2.Image = "rbxassetid://2790382281"
+userName_2.ScaleType = Enum.ScaleType.Slice
+userName_2.SliceCenter = Rect.new(4, 4, 252, 252)
+
+usrName_2.Name = "usrName"
+usrName_2.Parent = userName_2
+usrName_2.Active = false
+usrName_2.AnchorPoint = Vector2.new(0.5, 0.5)
+usrName_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+usrName_2.BackgroundTransparency = 1.000
+usrName_2.BorderSizePixel = 0
+usrName_2.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+usrName_2.Selectable = false
+usrName_2.Size = UDim2.new(1, -5, 1, -5)
+usrName_2.Font = Enum.Font.GothamSemibold
+usrName_2.PlaceholderColor3 = Color3.fromRGB(47, 47, 47)
+usrName_2.PlaceholderText = "Username"
+usrName_2.Text = ""
+usrName_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+usrName_2.TextSize = 14.000
+
+addWl.Name = "addWl"
+addWl.Parent = wbList
+addWl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+addWl.BackgroundTransparency = 1.000
+addWl.Position = UDim2.new(0.236816227, 0, 0.437557906, 0)
+addWl.Size = UDim2.new(0, 86, 0, 27)
+addWl.Image = "rbxassetid://2790382281"
+addWl.ScaleType = Enum.ScaleType.Slice
+addWl.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_25.Parent = addWl
+TextLabel_25.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_25.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_25.BackgroundTransparency = 1.000
+TextLabel_25.BorderSizePixel = 0
+TextLabel_25.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_25.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_25.Font = Enum.Font.GothamSemibold
+TextLabel_25.Text = "Whitelist"
+TextLabel_25.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_25.TextSize = 14.000
+
+removeWl.Name = "removeWl"
+removeWl.Parent = wbList
+removeWl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+removeWl.BackgroundTransparency = 1.000
+removeWl.Position = UDim2.new(0.236816227, 0, 0.671134531, 0)
+removeWl.Size = UDim2.new(0, 86, 0, 27)
+removeWl.Image = "rbxassetid://2790382281"
+removeWl.ScaleType = Enum.ScaleType.Slice
+removeWl.SliceCenter = Rect.new(4, 4, 252, 252)
+
+TextLabel_26.Parent = removeWl
+TextLabel_26.AnchorPoint = Vector2.new(0.5, 0.5)
+TextLabel_26.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_26.BackgroundTransparency = 1.000
+TextLabel_26.BorderSizePixel = 0
+TextLabel_26.Position = UDim2.new(0.496627808, 0, 0.48333323, 0)
+TextLabel_26.Size = UDim2.new(1, -5, 1, -5)
+TextLabel_26.Font = Enum.Font.GothamSemibold
+TextLabel_26.Text = "Blacklist"
+TextLabel_26.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_26.TextSize = 14.000
+
+UIAspectRatioConstraint.Parent = Interface
+UIAspectRatioConstraint.AspectRatio = 1.932
+
+-- Scripts:
+
+local function LHDEM_fake_script() -- SideButtons.Script 
+	local script = Instance.new('Script', SideButtons)
+
+	mainUIs = script.Parent.Parent.Main
+	gameUI = mainUIs.Game
+	playerUI = mainUIs.Players
+	protectionUI = mainUIs.Protections
+	buttons = script.Parent
+	
+	local GameBoolValue = false
+	local PlayerBoolValue = false
+	local ProtBoolValue = false
+	
+	function gameClick()
+	
+	if GameBoolValue == false then
+		GameBoolValue = true
+		PlayerBoolValue = false
+		ProtBoolValue = false
+		mainUIs.Visible = true
+		gameUI.Visible = true
+		playerUI.Visible = false
+		protectionUI.Visible = false
+	else
+		GameBoolValue = false	
+		PlayerBoolValue = false
+		ProtBoolValue = false
+		mainUIs.Visible = false
+		gameUI.Visible = false
+		playerUI.Visible = false
+		protectionUI.Visible = false
+	end
+	end
+	
+	function playerClick()
+	
+	if PlayerBoolValue == false then
+		GameBoolValue = false	
+		PlayerBoolValue = true
+		ProtBoolValue = false
+		mainUIs.Visible = true
+		gameUI.Visible = false
+		playerUI.Visible = true
+		protectionUI.Visible = false
+	else
+		GameBoolValue = false	
+		PlayerBoolValue = false
+		ProtBoolValue = false
+		mainUIs.Visible = false
+		gameUI.Visible = false
+		playerUI.Visible = false
+		protectionUI.Visible = false
+	end
+	end
+	
+	function protClick()
+	
+	if ProtBoolValue == false then
+		GameBoolValue = false	
+		PlayerBoolValue = false
+		ProtBoolValue = true
+		mainUIs.Visible = true
+		gameUI.Visible = false
+		playerUI.Visible = false
+		protectionUI.Visible = true
+	else
+		GameBoolValue = false	
+		PlayerBoolValue = false
+		ProtBoolValue = false
+		mainUIs.Visible = false
+		gameUI.Visible = false
+		playerUI.Visible = false
+		protectionUI.Visible = false
+	end
+	end
+	
+	buttons.Game.MouseButton1Down:Connect(gameClick)
+	buttons.Player.MouseButton1Down:Connect(playerClick)
+	buttons.Protections.MouseButton1Down:Connect(protClick)
+end
+coroutine.wrap(LHDEM_fake_script)()
+local function SAANMLA_fake_script() -- OpenClose.Script 
+	local script = Instance.new('Script', OpenClose)
+
+	local text = script.Parent.TextLabel
+	local sideMenu = script.Parent.Parent.SideButtons
+	local mainMenu = script.Parent.Parent.Main
+	local button = script.Parent
+	local BoolValue = false
+	
+	OPEN = function()
+		
+		OPEN_GOAL_POSITION = UDim2.new(0, 0,0.5, -157)
+		sideMenu:TweenPosition(OPEN_GOAL_POSITION,Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.5,true)
+		text.Text = "Close"
+		button.ImageColor3 = Color3.fromRGB(170, 0, 43)
+		mainMenu.Visible = false
+	end
+	
+	CLOSE = function()
+		
+		CLOSE_GOAL_POSITION = UDim2.new(0, -110,0.5, -157)
+		sideMenu:TweenPosition(CLOSE_GOAL_POSITION,Enum.EasingDirection.In,Enum.EasingStyle.Sine,0.5,true)
+		text.Text = "Open"
+		button.ImageColor3 = Color3.fromRGB(0, 170, 127)
+		mainMenu.Visible = false
+	end
+	
+	function OpenNClose(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+		OPEN()	
+	else
+	    BoolValue = false
+		CLOSE()	
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(OpenNClose)
+end
+coroutine.wrap(SAANMLA_fake_script)()
+local function JSOSHP_fake_script() -- crashButton.Script 
+	local script = Instance.new('Script', crashButton)
+
+	crashgear = "94794847"
+	
+	crash = function()
+	
+		wait()
+		game.Players:Chat("gear me "..crashgear)
+		wait(0.4)
+		hum = game.Players.LocalPlayer.Character:FindFirstChildOfClass("Humanoid")
+	    hum:EquipTool(game.Players.LocalPlayer.Backpack:WaitForChild("VampireVanquisher"))
+		wait()
+		game.Players:Chat("size me 0.3")
+		wait()
+		game.Players:Chat("size me 0.3")
+		wait()
+		game.Players:Chat("size me 0.3")
+		wait()
+		game.Players:Chat("size me 0.3")
+		wait()
+		game.Players:Chat("size me 0.3")
+		wait()
+		game.Players:Chat("size me 0.3")
+		wait()
+		game.Players:Chat("size me 0.3")
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(crash)
+end
+coroutine.wrap(JSOSHP_fake_script)()
+local function URGE_fake_script() -- pmoveButton.Script 
+	local script = Instance.new('Script', pmoveButton)
+
+	pmove = function()
+	
+			game.Players:Chat("sit me")
+			wait(1)
+			game.Players:Chat("punish me")
+			wait(1)
+			game.Players:Chat("unpunish me")
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(pmove)
+end
+coroutine.wrap(URGE_fake_script)()
+local function QPIYT_fake_script() -- ewButton.Script 
+	local script = Instance.new('Script', ewButton)
+
+	ew = function()
+	
+		  game.Players:Chat("music off")
+			game.Players:Chat("fix")
+			game.Players:Chat("h Ew, What was that.")
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(ew)
+end
+coroutine.wrap(QPIYT_fake_script)()
+local function CDDSXT_fake_script() -- hellButton.Script 
+	local script = Instance.new('Script', hellButton)
+
+	hell = function()
+	
+		game.Players:Chat("colorshifttop 10000 0 0")
+		wait()
+		game.Players:Chat("colorshiftbottom 10000 0 0")
+		wait()
+		game.Players:Chat("music 4960029619")
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(hell)
+end
+coroutine.wrap(CDDSXT_fake_script)()
+local function EFTQYSX_fake_script() -- rejoinButton.Script 
+	local script = Instance.new('Script', rejoinButton)
+
+	rejoin = function()
+	
+		game:GetService('TeleportService'):TeleportToPlaceInstance(game.PlaceId, game.JobId, game.Players.LocalPlayer)
+	
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(rejoin)
+end
+coroutine.wrap(EFTQYSX_fake_script)()
+local function TROHGW_fake_script() -- epilepsyButton.Script 
+	local script = Instance.new('Script', epilepsyButton)
+
+	Players = game.Players
+	
+	local BoolValue = false
+	
+	function reset(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.looped.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.looped.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(reset)
+	
+	wait ()
+	while true do
+	    wait ()
+	    if BoolValue == true then
+			Players:Chat(":colorshifttop 10000 0 0"); wait()
+			Players:Chat(":colorshiftbottom 10000 0 0"); wait()
+			Players:Chat(":colorshifttop 0 10000 0"); wait()
+			Players:Chat(":colorshiftbottom 0 10000 0"); wait()
+			Players:Chat(":colorshifttop 0 0 10000"); wait()
+			Players:Chat(":colorshiftbottom 0 0 10000"); wait()
+	    end
+	end
+	
+end
+coroutine.wrap(TROHGW_fake_script)()
+local function YNCON_fake_script() -- regenButton.Script 
+	local script = Instance.new('Script', regenButton)
+
+	local Players = game:GetService("Players")
+	local Workspace = game:GetService("Workspace")
+	local LocalPlayer = Players.LocalPlayer
+	local GameFolder = Workspace:WaitForChild("Terrain"):WaitForChild("_Game")
+	local AdminFolder = GameFolder:WaitForChild("Admin")
+	local Pads = AdminFolder:WaitForChild("Pads")
+	local WorkspaceFolder = GameFolder:WaitForChild("Workspace")
+	local HolderFolder = GameFolder:WaitForChild("Folder")
+	
+	local regen = function()
+		
+		fireclickdetector(AdminFolder.Regen.ClickDetector, 0)
+		
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(regen)
+end
+coroutine.wrap(YNCON_fake_script)()
+local function QFWC_fake_script() -- trashButton.Script 
+	local script = Instance.new('Script', trashButton)
+
+	
+	trashCan = function()
+	
+		wait()
+		game.Players:Chat("char "..script.Parent.Parent.userName.usrName.Text.." 999999999")
+		game.Players:Chat("h The trash can has arrived.")
+		wait()
+		game.Players:Chat("name "..script.Parent.Parent.userName.usrName.Text.."TrashCan")
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(trashCan)
+end
+coroutine.wrap(QFWC_fake_script)()
+local function PCSAHD_fake_script() -- boomerButton.Script 
+	local script = Instance.new('Script', boomerButton)
+
+	
+	boomer = function()
+	
+		wait()
+		game.Players:Chat("char "..script.Parent.Parent.userName.usrName.Text.." 1")
+		game.Players:Chat("h The boomer is here.")
+		wait()
+		game.Players:Chat("name "..script.Parent.Parent.userName.usrName.Text.."Boomer")
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(boomer)
+end
+coroutine.wrap(PCSAHD_fake_script)()
+local function HTPQGZ_fake_script() -- gayButton.Script 
+	local script = Instance.new('Script', gayButton)
+
+	boomer = function()
+	
+		wait()
+		game.Players:Chat("swag "..script.Parent.Parent.userName.usrName.Text.."")
+		game.Players:Chat("music 4823019744")
+		wait()
+		game.Players:Chat("name "..script.Parent.Parent.userName.usrName.Text.." Gay")
+	
+	end
+	
+	
+	script.Parent.MouseButton1Down:Connect(boomer)
+end
+coroutine.wrap(HTPQGZ_fake_script)()
+local function NESJXHT_fake_script() -- resetButton.Script 
+	local script = Instance.new('Script', resetButton)
+
+	
+	local BoolValue = false
+	
+	function reset(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+			    script.Parent.looped.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.looped.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(reset)
+	
+	wait ()
+	while true do
+	    wait ()
+	    if BoolValue == true and script.Parent.Parent.userName.usrName.Text ~= "" then
+	        game.Players:Chat("reset "..script.Parent.Parent.userName.usrName.Text)
+	        game.Players:Chat("reset "..script.Parent.Parent.userName.usrName.Text)
+			game.Players:Chat("reset "..script.Parent.Parent.userName.usrName.Text)
+			game.Players:Chat("reset "..script.Parent.Parent.userName.usrName.Text)
+		elseif BoolValue == true and script.Parent.Parent.userName.usrName.Text == "" then
+	        game.Players:Chat("reset me")
+	        game.Players:Chat("reset me")
+			game.Players:Chat("reset me")
+			game.Players:Chat("reset me")
+	    end
+	end
+	
+end
+coroutine.wrap(NESJXHT_fake_script)()
+local function LHWCWJ_fake_script() -- respawnButton.Script 
+	local script = Instance.new('Script', respawnButton)
+
+	local BoolValue = false
+	
+	function respawn(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.looped.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.looped.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(respawn)
+	
+	wait ()
+	while true do
+	    wait ()
+	    if BoolValue == true and script.Parent.Parent.userName.usrName.Text ~= "" then
+	        game.Players:Chat("respawn "..script.Parent.Parent.userName.usrName.Text)
+	        game.Players:Chat("respawn "..script.Parent.Parent.userName.usrName.Text)
+			game.Players:Chat("respawn "..script.Parent.Parent.userName.usrName.Text)
+			game.Players:Chat("respawn "..script.Parent.Parent.userName.usrName.Text)
+		elseif BoolValue == true and script.Parent.Parent.userName.usrName.Text == "" then
+	        game.Players:Chat("respawn me")
+	        game.Players:Chat("respawn me")
+			game.Players:Chat("respawn me")
+			game.Players:Chat("respawn me")
+	    end
+	end
+end
+coroutine.wrap(LHWCWJ_fake_script)()
+local function LRPJWCJ_fake_script() -- lagButton.Script 
+	local script = Instance.new('Script', lagButton)
+
+	largeText = game:HttpGetAsync("https://raw.githubusercontent.com/Stefanuk12/ROBLOX/master/Games/Kohls%20Admin%20House/LongText.txt")
+	
+	local BoolValue = false
+	
+	function respawn(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.looped.Text = "Looped : True"
+	else
+	    BoolValue = false
+	    script.Parent.looped.Text = "Looped : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(respawn)
+	
+	wait ()
+	while true do
+	    wait ()
+		    if BoolValue == true then
+			wait()
+	        game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+	        game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+			game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+			game.Players:Chat("pm "..script.Parent.Parent.userName.usrName.Text.." "..largeText)
+	    end
+	end
+end
+coroutine.wrap(LRPJWCJ_fake_script)()
+local function SRUDC_fake_script() -- spamButton.Script 
+	local script = Instance.new('Script', spamButton)
+
+	
+	
+	local BoolValue = false
+	
+	function respawn(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.looped.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.looped.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(respawn)
+	
+	wait ()
+	while true do
+	    wait ()
+		if BoolValue == true then
+			wait()
+	        game.Players:Chat(script.Parent.Parent.commandName.cmdName.Text)
+	        game.Players:Chat(script.Parent.Parent.commandName.cmdName.Text)
+	        game.Players:Chat(script.Parent.Parent.commandName.cmdName.Text)
+	        game.Players:Chat(script.Parent.Parent.commandName.cmdName.Text)
+	    end
+	end
+end
+coroutine.wrap(SRUDC_fake_script)()
+local function KKBZAT_fake_script() -- antiPunish.Script 
+	local script = Instance.new('Script', antiPunish)
+
+	
+	local BoolValue = false
+	LocalPlayer = game.Players.LocalPlayer
+	Players = game.Players
+	
+	function click(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.enb.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.enb.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+	
+	
+	game:GetService("Lighting").ChildAdded:Connect(function()
+	    if BoolValue == true and game:GetService("Lighting"):FindFirstChild(LocalPlayer.Name) then
+	        Players:Chat(":reset me")
+	    end
+	end)
+end
+coroutine.wrap(KKBZAT_fake_script)()
+local function MAFSN_fake_script() -- antiKill.Script 
+	local script = Instance.new('Script', antiKill)
+
+	
+	local BoolValue = false
+	LocalPlayer = game.Players.LocalPlayer
+	Players = game.Players
+	
+	function click(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.enb.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.enb.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+	
+	
+	LocalPlayer.Character:WaitForChild("Humanoid").Died:Connect(function()
+	    if BoolValue == true then Players:Chat(":reset me") end
+	end)
+	
+	LocalPlayer.CharacterAdded:Connect(function(Character)
+	    Character:WaitForChild("Humanoid").Died:Connect(function()
+	        if BoolValue == true then Players:Chat(":reset me") end
+	    end)
+	end)
+end
+coroutine.wrap(MAFSN_fake_script)()
+local function JSGSJIO_fake_script() -- antiBlind.Script 
+	local script = Instance.new('Script', antiBlind)
+
+	
+	local BoolValue = false
+	LocalPlayer = game.Players.LocalPlayer
+	Players = game.Players
+	
+	function click(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.enb.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.enb.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+	
+	
+	LocalPlayer.PlayerGui.ChildAdded:Connect(function(child)
+	    if BoolValue == true and LocalPlayer.PlayerGui.EFFECTGUIBLIND then
+	        wait(0.1)
+	        LocalPlayer.PlayerGui.EFFECTGUIBLIND:Destroy()
+	    end
+	end)
+end
+coroutine.wrap(JSGSJIO_fake_script)()
+local function YLVKNW_fake_script() -- antiSound.Script 
+	local script = Instance.new('Script', antiSound)
+
+	local BoolValue = false
+	LocalPlayer = game.Players.LocalPlayer
+	Players = game.Players
+	local Folders = game.Workspace.Terrain._Game
+	local nFolder = Folders.Folder
+	
+	function click(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.enb.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.enb.Text = "Active : False"
+	end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+	
+	wait ()
+	while true do
+	    wait ()
+		if BoolValue == true and nFolder:WaitForChild("Sound") then
+			if nFolder.Sound.isPlaying then
+				game.Players:Chat("clr")
+				wait(1)
+				wait()
+			end
+	    end
+	end
+end
+coroutine.wrap(YLVKNW_fake_script)()
+local function FEUNPUZ_fake_script() -- antiGear.Script 
+	local script = Instance.new('Script', antiGear)
+
+	local BoolValue = false
+	local WLBoolValue = false
+	LocalPlayer = game.Players.LocalPlayer
+	Players = game.Players
+	local Folders = game.Workspace.Terrain._Game
+	local nFolder = Folders.Folder
+	whiteListed ={}
+	
+	function addWhite(userN)
+		table.insert(whiteListed,userN)
+		print(userN.." has been whitelisted.")
+	end
+	
+	function removeWhite(userN)
+		local u = table.find(whiteListed,userN)
+		table.remove(whiteListed,u)
+		print(userN.." has been blacklisted.")
+	end
+	
+	function checkWL(player)
+		for _, v in pairs(whiteListed) do
+			if v == player.Name then	
+				return true
+			end 
+		end
+		return false
+	end
+	
+	function printWL()
+		
+		for _, name in ipairs(whiteListed) do
+			print(name)
+		end
+	end
+	
+	function click(mouse)
+	
+	if BoolValue == false then
+	    BoolValue = true
+	    script.Parent.enb.Text = "Active : True"
+	else
+	    BoolValue = false
+	    script.Parent.enb.Text = "Active : False"
+	end
+	end
+	
+	function openWLG()
+		if WLBoolValue == false then
+			WLBoolValue = true
+			script.Parent.wbList.Visible = true
+	    	script.Parent.whitlist.TextLabel.Text = "<"
+		else
+			WLBoolValue = false
+			script.Parent.wbList.Visible = false
+	    	script.Parent.whitlist.TextLabel.Text = ">"
+		end
+	end
+	
+	script.Parent.MouseButton1Down:Connect(click)
+	script.Parent.wbList.addWl.MouseButton1Down:Connect(function()
+		
+		addWhite(script.Parent.wbList.userName.usrName.Text)
+		print("Current whitelisted players; ")
+		printWL()
+		
+	end)
+	script.Parent.wbList.removeWl.MouseButton1Down:Connect(function()
+		
+		removeWhite(script.Parent.wbList.userName.usrName.Text)
+		print("Current whitelisted players; ")
+		printWL()
+		
+	end)
+	
+	script.Parent.whitlist.MouseButton1Down:Connect(openWLG)
+	
+	wait ()
+	while true do
+	    wait ()
+		if BoolValue == true then
+			for _, player in ipairs(Players:GetPlayers()) do
+					for _, child in ipairs(player.Backpack:GetChildren()) do
+						if child:IsA("Tool") then
+							if checkWL(player) then
+								wait()
+							else
+								game.Players:Chat("removetools "..player.Name)	
+								wait(0.5)
+						end
+					end
+				end
+			end
+	    end
+	end
+end
+coroutine.wrap(FEUNPUZ_fake_script)()
